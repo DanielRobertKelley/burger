@@ -1,70 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <head>
-   
+
+<head>
+
     <title>Eat The Burger!</title>
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
     <link rel="stylesheet" href="/assets/css/burger_style.css">
-  </head>
-  <body>
-  
+</head>
+
+<body>
+
 
     <div class="container">
-      
-      <br>
 
-      <center>
-        <div class="row">
-          
-        </div>
-      </center>
+        <br>
 
-      <center>
-        <h1>Eat The Burger!</h1>
-      </center>
-      
-      <br>
-      
-
-      {{{body}}}
-
-
-      <br><br>
-
-     
-      <form action="burger/create" method="POST"> 
-        
-        
-        <div class="row">
-        
-          <div class="col-md-3"></div> 
-
-          
-          <div class="form-group col-md-6">
-            <center><label for="new_burger" Request a new burger!</label></center>
-            <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>
-          </div>
-
-          
-          <div class="col-md-3"></div> 
-        </div>
-      
         <center>
-          <button id="submit-button" type="submit" class="btn btn-danger">Place Order</button>
+            <div class="row">
+
+            </div>
         </center>
 
-      </form>
+        <center>
+            <h1> Eat The Burger!
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOuSURBVGhD7ZlryBRVGMc385KimaRBXhBNA5VKSgIxRDRvJEZGIEEKijeoPhTpB8UkJJW8gVCQiASh4AdNCbXyQyREZaUgpJISZJipqZn3++83756XfWf33V0vu8zo/OHHzrnszHPmnPM8z8zkMmXKlKmcWkKnGvAw1FTPwAL4EY7CdbhRIy7AH7ARpoADvGM9BV9C/GIX4WSNiN+k/2A+tIfb0ky4DJ7sX/gIhsMjEFfr/O/dkMu2B0yGLRAG9hs8CbekD8E/X4NFULh2H8r/qgfgK7Dfu1bUQANhF2jPKXgWqtIs8E/nYLQVBQp3yKlWncG+8pMVNVIbWAte5zB0h7LqCy6nqzDeigI5E8FopzloKeyHV6JS7fQgbAavv9WKctJT2HFlVCqWnmsfvB6VcrkO+d96yf2p19TG+Gpp1BNgh9NQjT/fAfafG5Xqp2ngdd2bJTUH7PBxVCqvjmBf2W1FHaUbPgNXwD1aJEeoYWOjUmW9D3vg5ahUX30B2vpqVIrpd7BxCPROOKtAW2dDEz0Kl8DGNKFzaqLg1k7AoZRgmqTNUyFSCIAOopsVMQ2Cfg2HZfUcPN1wWJWGgsukkgaD8S0uQ4B2u5Ket0J3a4UbdwL0gq4wDkLCaAqyBmyLawCE+GPUN/qXSyPGwA8QjFgGXi8uz7EN7KeH+gSGQRfoA2bG3nzbDQW5t+H/fEUp/obz+WMj/nZYDm647yAkdeZBukWPrfsaZoB3fiSYi/0M4bwGtrAv/fWmOSjdfxho6FfOvj+hMQt5HKz0zrv+TEE2gaNuC7avBp8V4ic6DotBn67TWAim3vF+gb/gLTDl6Q/OdKnzHgFdvNnDY/AeOEMH4B+wj2XtayIbXGblpKEvgbM4HUZAYTYcZMCcBJ/Bt+DsfArGHBPAuLwJntcBunmdxVbQnML+KBm8qxlIUlRxIK5FvU/SMb8rORCn1Ya0ofPQi0XSpemNbDgINiadXyCEDZPW6FF7Z77C7DdN8tnkV9D26PkoxIh2FlKmd0DbV1jwGdiCPj1tcgDabryJHmst7IWJ8GIKGAXzwIzA/R1Ngkvqe3AwacNM5E1olFHUBpOzb1KAq0d7TW+KZMM9E9mzgdRZ989AzjYcJl5vQLMDCY+NvnFMupaAtvrVoEifg43roIUVCVVP8IOQtr5gRVy+qQjP3CaSBprXEoRZxwfgRydt9G1jszKlPwZ2TDK+qKj4ot3nbT+7+bJhQ4JYD75lMdfKlClTplQrl7sJOGKSRKs1Z68AAAAASUVORK5CYII=">
+            </h1>
+        </center>
 
-      <br>
+        <br> {{{body}}}
+
+
+        <br>
+        <br>
+
+
+        <form action="burger/create" method="POST">
+
+
+            <div class="row">
+
+                <div class="col-md-3"></div>
+
+
+                <div class="form-group col-md-6">
+                    <center>
+                        <label for="new_burger" Request a new burger! </label>
+                    </center>
+                    <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>
+                </div>
+
+
+                <div class="col-md-3"></div>
+            </div>
+
+            <center>
+                <button id="submit-button" type="submit" class="btn btn-danger">Place Order  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIGSURBVGhD7Zo9SB1REIXHaCKKJChGRcQyWJh0VloEDTainYW2qUzaFDaWwVR2SZOUsRMEESyEFCoWIgiBpAqihdb+pEswnjPzLjweuxuWZZf7YD74eDMqe+ewelffVRzHyU0/nIXzkcrZOGMmU/A3/Be5nHESpnIALyBTv4pUzsYZ92Aq53DbyqjhjJw1FQ9SMR4kNjxIbHiQ2PAg5AHcgMcVybW4ZhKFgrTAL3C3IrkW10yiUJCY8CCx4UECb+CHiuRaaRQKwq3wFCb96VmGXKuU7TcmPEhseJDAGEx606wMuVYahYJwB7mFSTtMGV7D0natZzDpTbMy5FppFA4SCx4kNjxIbHiQ2MgVZBV+tFL5DFesVLbgWyv1wXUI+UQmnfAEvtROZAD+hC+0ExmBP+CQdiIT8Dt8op3IHDyCbdqJvIY7Viq5guxDXjzAuv5uXcF1K3UAPo0ZngxD9kva2aDsF7UTmYHs+XHCr2P/XDuRZcg+BPsEuV4gV5BN+M1KhUddX61UfsE1K+UR5ELvtBPphn/ggnZ2B+7gtHYi45CDjmpnd/IvHNTOgvGcsF07kffwzEolV5AO2GWl8hiGCxMO+9BKpRfW/270tPYaaOz7aq+B+s/zOrxeoBX2WKn8N0gzHIby5+cSZh6G8si3GY6nb2Dm8TThLY/9HwYavy0dx8lE5B5JMqdx4bOGkgAAAABJRU5ErkJggg=="></button>
+            </center>
+
+        </form>
+
+        <br>
 
     </div>
 
-   
+
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
     <script src="/assets/javascript/burger_sounds.js"></script>
 
-  </body>
+</body>
+
 </html>
