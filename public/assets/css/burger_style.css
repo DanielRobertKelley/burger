@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+}
+h1 {
+    font-family: cursive;
+    font-size:60px;
+}
+#ready_to_eat {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:strong;
+    font-size:40px;
+}
+
+#already_eaten {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:strong;
+    font-size:40px;
+}
+body {
+
+background-image: url("four.jpg");
+}
